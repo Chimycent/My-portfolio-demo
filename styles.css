@@ -1,0 +1,153 @@
+h1{
+    justify-content: center;
+    text-align: center;
+
+}
+body{
+    font-style: normal;
+    background-color: wheat;
+    position: absolute;
+}
+.header{
+    position: sticky;
+    top: 0;
+    margin: 0px;
+    gap: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 270px;
+    cursor: pointer;
+}
+.header :hover{
+    color: teal;
+}
+
+#border{
+    border: 2px outset;
+    border-radius: 5px;
+}
+.me{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    text-align: left;
+    margin-top: -50px;
+    margin-left: 100px;
+}
+.call{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#just, .in{
+    color: teal;
+}
+#pix{
+    border-radius: 100%;
+    margin: 10px;
+    padding: 50px;
+}
+.about{
+    text-align: center;
+    justify-content: center;
+}
+.what{
+    text-align: center;
+    justify-content: center;
+}
+.whatido{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+#end{
+    border: 2px solid;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+}
+.deve{
+    text-align: center;
+    text-decoration: none;
+}
+.whatido :hover{
+    transition: 1s;
+    background: linear-gradient(to bottom, transparent 50%, teal 50%);
+    background-size: 100% 200%;
+    background-position: 0% 100%;
+}
+#pixx{
+    margin: 20px;
+    margin-left: 500px;
+    padding: 60px;
+}
+#skill{
+    text-align: center;
+    color: teal;
+}
+.skillz{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#endd{
+    border: 2px solid;
+    border-radius: 10px;
+    width: 600px;
+    height: 20px;
+    font-weight: bold;
+}
+.skillz :hover{
+    transition: 1s;
+    background: linear-gradient(to right, transparent 50%, teal 50%);
+    background-size: 200% 100%;
+    background-position: -100% 0;
+}
+.experience{
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#exp{
+    border: 2px solid;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+}
+.experience :hover{
+    transition: 1s;
+    background: linear-gradient(to right, transparent 50%, teal 50%);
+    background-size: 200% 100%;
+    background-position: -100% 0;
+}
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.social{
+    color: teal;
+    text-align: center;
+}
+.soc{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+#col{
+    color: black;
+}
+#arrow{
+    position: fixed;
+    bottom: 0;   
+    right: 0; 
+    padding: 15px;
+}
