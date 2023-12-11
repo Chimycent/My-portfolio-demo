@@ -1,31 +1,34 @@
 h1{
     justify-content: center;
     text-align: center;
-
 }
 body{
     font-style: normal;
-    background-color: wheat;
+    background-color: burlywood;
     position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .header{
     position: sticky;
     top: 0;
-    margin: 0px;
+    margin: 0;
     gap: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     left: 270px;
     cursor: pointer;
+    z-index: 20;
+    background-color: wheat;
 }
 .header :hover{
-    color: teal;
+    background:teal;
 }
 
 #border{
-    border: 2px outset;
+    border: 2px solid black;
     border-radius: 5px;
+    padding: 5px 12px;
 }
 .me{
     display: flex;
@@ -70,6 +73,7 @@ body{
 .deve{
     text-align: center;
     text-decoration: none;
+    font-size: large;
 }
 .whatido :hover{
     transition: 1s;
@@ -95,6 +99,7 @@ body{
 }
 #endd{
     border: 2px solid;
+    padding-left: 10px;
     border-radius: 10px;
     width: 600px;
     height: 20px;
