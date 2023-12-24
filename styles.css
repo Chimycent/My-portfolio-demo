@@ -1,76 +1,85 @@
+body{
+    font-style: normal;
+    background-color: #f5f5f5;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
 h1{
     justify-content: center;
     text-align: center;
 }
-body{
-    font-style: normal;
-    background-color: burlywood;
-    position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.header{
+nav{
     position: sticky;
     top: 0;
-    margin: 0;
     gap: 80px;
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: center;
-    left: 270px;
     cursor: pointer;
     z-index: 20;
-    background-color: wheat;
+    box-sizing: border-box;
+    background-color: #ffffff;
 }
-.header :hover{
+nav :hover{
     background:teal;
 }
-
 #border{
     border: 2px solid black;
     border-radius: 5px;
     padding: 5px 12px;
 }
-.me{
+.content{
+    overflow: hidden;
+    padding: 0 20px;
+}
+#pix{
+    padding: 0 20px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+.aboutMe{
+    padding: 0 30px;
     display: flex;
     flex-direction: column;
-    margin: 30px;
+    margin-bottom: 30px;
     text-align: left;
-    margin-top: -50px;
-    margin-left: 100px;
 }
-.call{
+.contact{
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
+.no-underline{
+    color: black;
+    text-decoration: none;
+}
+
 #just, .in{
     color: teal;
 }
-#pix{
-    border-radius: 100%;
-    margin: 10px;
-    padding: 50px;
-}
 .about{
+    margin-top: 40px;
     text-align: center;
     justify-content: center;
 }
 .what{
     text-align: center;
     justify-content: center;
+    margin-top: 40px;
 }
 .whatido{
     display: flex;
     gap: 20px;
     justify-content: center;
 }
-#end{
+#flexBox{
     border: 2px solid;
     border-radius: 10px;
     width: 300px;
     height: 400px;
 }
-.deve{
+.boxContainer{
     text-align: center;
     text-decoration: none;
     font-size: large;
@@ -81,14 +90,14 @@ body{
     background-size: 100% 200%;
     background-position: 0% 100%;
 }
-#pixx{
-    margin: 20px;
-    margin-left: 500px;
-    padding: 60px;
+#myPhoto{
+    display: block;
+    margin: 40px auto;
 }
 #skill{
     text-align: center;
     color: teal;
+    margin-top: 40px;
 }
 .skillz{
     display: flex;
@@ -97,7 +106,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-#endd{
+#programming{
     border: 2px solid;
     padding-left: 10px;
     border-radius: 10px;
@@ -112,6 +121,7 @@ body{
     background-position: -100% 0;
 }
 .experience{
+    margin-top: 40px;
     gap: 15px;
     display: flex;
     justify-content: center;
@@ -134,6 +144,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
     gap: 10px;
 }
 .social{
@@ -147,8 +158,22 @@ body{
     flex-direction: row;
     gap: 50px;
 }
-#col{
+#icon{
     color: black;
+}
+.skillsIOffer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.skillsIOffer :hover{
+    transition: 1s;
+    background: linear-gradient(to right, transparent 50%, teal 50%);
+    background-size: 200% 100%;
+    background-position: -100% 0;
 }
 #arrow{
     position: fixed;
